@@ -1,8 +1,8 @@
 import React from "react";
-import picture1 from "../../public/haz.jpg";
-import picture2 from "../../public/panel.jpg";
-import picture3 from "../../public/nyaralo.jpg";
-import picture4 from "../../public/background.png"
+import picture1 from "/haz.jpg";
+import picture2 from "/panel.jpg";
+import picture3 from "/nyaralo.jpg";
+import picture4 from "/background.png"
 
 export const Home = () => {
   return (
