@@ -2,6 +2,7 @@ import React from "react";
 import picture1 from "../../public/haz.jpg";
 import picture2 from "../../public/panel.jpg";
 import picture3 from "../../public/nyaralo.jpg";
+import picture4 from "../../public/background.png"
 
 export const Home = () => {
   return (
@@ -10,7 +11,7 @@ export const Home = () => {
       className="shadow"
         style={{
           height: "40vh",
-          backgroundImage: "url(../public/background.png)",
+          backgroundImage: `url(${picture4})`,
           backgroundPosition: "center",
           backgroundSize: "cover"
         }}
